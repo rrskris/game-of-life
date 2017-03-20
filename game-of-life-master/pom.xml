@@ -498,18 +498,17 @@
             </reporting>
         </profile>
     </profiles>
-<distributionManagement>
+
+	<distributionManagement>
     <snapshotRepository>
         <id>nexus</id>
         <name>Internal Snapshots</name>
-        <!--<url>http://jenkins-ci.pk.int:8081/repository/maven-snapshots</url>-->
-        <url>http://mdt-jenkins.prokarmalabs.com:8081/repository/maven-snapshots</url>
+        <url>http://jenkins-ci.pk.int:8081/repository/maven-snapshots</url>
     </snapshotRepository>
     <repository>
         <id>nexus</id>
         <name>Internal Releases</name>
-        <!--<url>http://jenkins-ci.pk.int:8081/repository/maven-releases/</url>-->
-        <url>http://mdt-jenkins.prokarmalabs.com:8081/repository/maven-releases/</url>
+        <url>http://jenkins-ci.pk.int:8081/repository/maven-releases/</url>
     </repository>
 </distributionManagement>
 
